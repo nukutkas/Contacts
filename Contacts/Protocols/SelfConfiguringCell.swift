@@ -10,5 +10,5 @@ import UIKit
 
 protocol SelfConfiguringCell {
     static var reuseId: String { get }
-    func configure(with user: User)
+    func configure(with user: ContactsModel.User)
 }

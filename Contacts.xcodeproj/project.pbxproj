@@ -23,10 +23,16 @@
 		E58DE9E72542E4AE00C9A2AD /* FavouriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58DE9E62542E4AE00C9A2AD /* FavouriteCell.swift */; };
 		E58DE9E92542E4C500C9A2AD /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58DE9E82542E4C500C9A2AD /* ContactCell.swift */; };
 		E58DE9EB2542EE4700C9A2AD /* UIViewController + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58DE9EA2542EE4700C9A2AD /* UIViewController + Extensions.swift */; };
+		E58DE9ED2545C3BB00C9A2AD /* SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58DE9EC2545C3BB00C9A2AD /* SectionHeader.swift */; };
+		E58DE9EF2545CB2A00C9A2AD /* UIView + extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58DE9EE2545CB2A00C9A2AD /* UIView + extension.swift */; };
+		E58DE9F32545DB7300C9A2AD /* SF-Pro-Rounded-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = E58DE9F02545D7A200C9A2AD /* SF-Pro-Rounded-Medium.otf */; };
+		E58DE9F42545DB7300C9A2AD /* SF-Pro-Rounded-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E58DE9F22545D7A300C9A2AD /* SF-Pro-Rounded-Semibold.otf */; };
+		E58DE9F52545DB7300C9A2AD /* SF-Pro-Rounded-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = E58DE9F12545D7A200C9A2AD /* SF-Pro-Rounded-Regular.otf */; };
+		E58DE9F72545DD1F00C9A2AD /* UIFont + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58DE9F62545DD1F00C9A2AD /* UIFont + Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E58DE9BA2542CEDF00C9A2AD /* Contacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E58DE9BA2542CEDF00C9A2AD /* Contacts design.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Contacts design.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E58DE9BD2542CEDF00C9A2AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E58DE9BF2542CEDF00C9A2AD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E58DE9C12542CEDF00C9A2AD /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
@@ -44,6 +50,12 @@
 		E58DE9E62542E4AE00C9A2AD /* FavouriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteCell.swift; sourceTree = "<group>"; };
 		E58DE9E82542E4C500C9A2AD /* ContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
 		E58DE9EA2542EE4700C9A2AD /* UIViewController + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Extensions.swift"; sourceTree = "<group>"; };
+		E58DE9EC2545C3BB00C9A2AD /* SectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeader.swift; sourceTree = "<group>"; };
+		E58DE9EE2545CB2A00C9A2AD /* UIView + extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + extension.swift"; sourceTree = "<group>"; };
+		E58DE9F02545D7A200C9A2AD /* SF-Pro-Rounded-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Rounded-Medium.otf"; sourceTree = "<group>"; };
+		E58DE9F12545D7A200C9A2AD /* SF-Pro-Rounded-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Rounded-Regular.otf"; sourceTree = "<group>"; };
+		E58DE9F22545D7A300C9A2AD /* SF-Pro-Rounded-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Rounded-Semibold.otf"; sourceTree = "<group>"; };
+		E58DE9F62545DD1F00C9A2AD /* UIFont + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont + Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +80,7 @@
 		E58DE9BB2542CEDF00C9A2AD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E58DE9BA2542CEDF00C9A2AD /* Contacts.app */,
+				E58DE9BA2542CEDF00C9A2AD /* Contacts design.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,6 +96,9 @@
 				E58DE9E12542E3CB00C9A2AD /* Protocols */,
 				E58DE9E52542E44B00C9A2AD /* Extensions */,
 				E58DE9D32542D06800C9A2AD /* contactUsers.json */,
+				E58DE9F02545D7A200C9A2AD /* SF-Pro-Rounded-Medium.otf */,
+				E58DE9F22545D7A300C9A2AD /* SF-Pro-Rounded-Semibold.otf */,
+				E58DE9F12545D7A200C9A2AD /* SF-Pro-Rounded-Regular.otf */,
 				E58DE9D12542D06000C9A2AD /* favouriteUsers.json */,
 				E58DE9C62542CEE000C9A2AD /* Assets.xcassets */,
 				E58DE9C82542CEE000C9A2AD /* LaunchScreen.storyboard */,
@@ -95,6 +110,7 @@
 		E58DE9DF2542E3A100C9A2AD /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				E58DE9EC2545C3BB00C9A2AD /* SectionHeader.swift */,
 				E58DE9D92542E16200C9A2AD /* ProfileCell.swift */,
 				E58DE9E62542E4AE00C9A2AD /* FavouriteCell.swift */,
 				E58DE9E82542E4C500C9A2AD /* ContactCell.swift */,
@@ -124,6 +140,7 @@
 				E58DE9D52542D17800C9A2AD /* MainTabBarController.swift */,
 				E58DE9C12542CEDF00C9A2AD /* ContactsViewController.swift */,
 				E58DE9D72542D52300C9A2AD /* RecentViewController.swift */,
+				E58DE9EE2545CB2A00C9A2AD /* UIView + extension.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -132,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				E58DE9E32542E42C00C9A2AD /* Bundle + Extension.swift */,
+				E58DE9F62545DD1F00C9A2AD /* UIFont + Extension.swift */,
 				E58DE9EA2542EE4700C9A2AD /* UIViewController + Extensions.swift */,
 			);
 			path = Extensions;
@@ -154,7 +172,7 @@
 			);
 			name = Contacts;
 			productName = Contacts;
-			productReference = E58DE9BA2542CEDF00C9A2AD /* Contacts.app */;
+			productReference = E58DE9BA2542CEDF00C9A2AD /* Contacts design.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -196,6 +214,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E58DE9CA2542CEE000C9A2AD /* LaunchScreen.storyboard in Resources */,
+				E58DE9F52545DB7300C9A2AD /* SF-Pro-Rounded-Regular.otf in Resources */,
+				E58DE9F42545DB7300C9A2AD /* SF-Pro-Rounded-Semibold.otf in Resources */,
+				E58DE9F32545DB7300C9A2AD /* SF-Pro-Rounded-Medium.otf in Resources */,
 				E58DE9C72542CEE000C9A2AD /* Assets.xcassets in Resources */,
 				E58DE9D42542D06800C9A2AD /* contactUsers.json in Resources */,
 				E58DE9D22542D06000C9A2AD /* favouriteUsers.json in Resources */,
@@ -209,10 +230,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E58DE9F72545DD1F00C9A2AD /* UIFont + Extension.swift in Sources */,
 				E58DE9C22542CEDF00C9A2AD /* ContactsViewController.swift in Sources */,
 				E58DE9DE2542E34C00C9A2AD /* SelfConfiguringCell.swift in Sources */,
 				E58DE9DC2542E31700C9A2AD /* UserModel.swift in Sources */,
 				E58DE9E42542E42C00C9A2AD /* Bundle + Extension.swift in Sources */,
+				E58DE9EF2545CB2A00C9A2AD /* UIView + extension.swift in Sources */,
 				E58DE9D82542D52300C9A2AD /* RecentViewController.swift in Sources */,
 				E58DE9E72542E4AE00C9A2AD /* FavouriteCell.swift in Sources */,
 				E58DE9E92542E4C500C9A2AD /* ContactCell.swift in Sources */,
@@ -221,6 +244,7 @@
 				E58DE9D62542D17800C9A2AD /* MainTabBarController.swift in Sources */,
 				E58DE9EB2542EE4700C9A2AD /* UIViewController + Extensions.swift in Sources */,
 				E58DE9C02542CEDF00C9A2AD /* SceneDelegate.swift in Sources */,
+				E58DE9ED2545C3BB00C9A2AD /* SectionHeader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,7 +388,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = nikko.Contacts;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Contacts design";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -382,7 +406,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = nikko.Contacts;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Contacts design";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

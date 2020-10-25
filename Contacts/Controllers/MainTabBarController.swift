@@ -19,10 +19,12 @@ class MainTabBarController: UITabBarController {
         let contactsImage = UIImage(systemName: "person.crop.circle")!
         let recentImage = UIImage(systemName: "clock.fill")!
         
+        
         viewControllers = [
             generateNavigationController(rootViewController: contactsVC, title: "Contacts", image: contactsImage),
             generateNavigationController(rootViewController: recentVC, title: "Recent", image: recentImage)
         ]
+        
     }
     
     private func generateNavigationController(rootViewController: UIViewController, title: String, image: UIImage) -> UIViewController {
@@ -30,6 +32,6 @@ class MainTabBarController: UITabBarController {
         navigationVC.tabBarItem.title = title
         navigationVC.tabBarItem.image = image
         return navigationVC
-        
     }
+    
 }
